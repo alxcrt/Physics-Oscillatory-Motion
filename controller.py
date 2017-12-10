@@ -16,4 +16,4 @@ def index():
     return render_template('view_plain.html', form=form, result=result)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
